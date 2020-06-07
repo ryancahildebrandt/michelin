@@ -143,6 +143,7 @@ michelin.kmodes %>%
   geom_jitter()
 
 ```
+
 # Plotly Plots
 ```{r Plotly, message=FALSE, warning=FALSE, cache=TRUE, include=TRUE, paged.print=TRUE, fig.width=10,fig.height=7}
 
@@ -164,6 +165,14 @@ michelin.3d<-michelin.kmodes %>%
 michelin.3d
 saveWidget(michelin.3d,"michelin_3d.html")
 
+htmltools::tags$iframe(
+  src = "michelin_3d.html", 
+  scrolling = "no", 
+  seamless = "seamless",
+  frameBorder = "0"
+)
+
+
 Sys.setenv("MAPBOX_TOKEN"="pk.eyJ1IjoicnlhbmNhaGlsZGVicmFuZHQiLCJhIjoiY2tiNWd0MzJmMTN5MzJybXZ0cnp2N2c0MSJ9.qh0GjKns3qfkdZFxLlG4Lw")
 michelin.map<-plot_mapbox(maps::world.cities) %>%
   add_markers(
@@ -179,6 +188,13 @@ michelin.map<-plot_mapbox(maps::world.cities) %>%
       "in",michelin$city))
 michelin.map
 saveWidget(michelin.map,"michelin_map.html")
+
+htmltools::tags$iframe(
+  src = "michelin_map.html", 
+  scrolling = "no", 
+  seamless = "seamless",
+  frameBorder = "0"
+)
 
 ```
 
