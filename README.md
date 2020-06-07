@@ -18,9 +18,9 @@ A project to explore Michelin star restaurants, applying k-modes clustering and 
 
 ## *Interactive Outputs*
 
-- [Map](http://htmlpreview.github.io/?https://github.com/ryancahildebrandt/michelin/blob/master/michelin_map.html)
+- [Map](https://github.com/ryancahildebrandt/michelin/blob/master/michelin_map.html)
 
-- [3D Scatter](http://htmlpreview.github.io/?https://github.com/ryancahildebrandt/michelin/blob/master/michelin_3D.html)
+- [3D Scatter](https://github.com/ryancahildebrandt/michelin/blob/master/michelin_3d.html)
 
 ---
 
