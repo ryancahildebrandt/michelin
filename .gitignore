@@ -4,3 +4,5 @@
 .Ruserdata
 .Rprofile
 michelin_cache*
+renv/
+*~
