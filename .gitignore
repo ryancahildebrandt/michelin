@@ -6,3 +6,4 @@
 michelin_cache*
 renv/
 *~
+*.Rproj*
